@@ -1,0 +1,81 @@
+body>* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: auto;
+    max-height: auto;
+    max-width: 70rem;
+    text-align: center;
+}
+
+.fotopequena{
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    margin-left: 5rem;
+    
+}
+.menu-principal {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(159, 80, 234);
+
+}
+.botao-primario{
+     border-radius: .5rem;
+     border-color: #fff;
+     background-color: #fff;
+     margin-top: 1.2rem;
+
+}
+.botoes li{
+    display: inline-flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    align-content: center;
+    color:#000 ;
+    text-transform: uppercase;
+}
+.imagencapa{
+    position: relative;
+    justify-items: center;
+    margin: auto;
+    width: 70rem;
+    height: auto;
+}
+
+.presentaçao {
+    background-color: #fff;
+}
+
+/*formaçao*/
+.formaçao {
+    background-color: aqua;
+
+}
+
+/*experiencia*/
+.experiencia {
+    background-color: #fff;
+
+}
+
+/*projetos no github*/
+/*cards foto descripçao e botoes pode ser dois o um, de 3 em 3*/
+
+.projetos {
+    background-color: aqua;
+}
+
+
+/*contato link menos importante com caixa de mensagem*/
+.contato {
+    background-color: #fff;
+}
