@@ -105,7 +105,10 @@ hr {
 }
 .toti,
 .barista,
-.unerg {
+.unerg, 
+.padaria,
+.fazenda,
+.ministerio{
     list-style: none;
    
 }
@@ -122,6 +125,9 @@ hr {
 /*experiencia*/
 .experiencia {
     background-color: #fff;
+    display: flexbox;
+    text-align: justify;
+    padding: .5rem;
 
 }
 
@@ -129,7 +135,7 @@ hr {
 /*cards foto descripçao e botoes pode ser dois o um, de 3 em 3*/
 
 .projetos {
-    background-color: aqua;
+    background-color: rgb(193, 163, 251);
 }
 
 
