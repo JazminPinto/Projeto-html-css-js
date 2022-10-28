@@ -1,4 +1,4 @@
-body>* {
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -23,6 +23,7 @@ body>* {
     display: flex;
     justify-content: space-between;
     background-color: rgb(159, 80, 234);
+    flex-wrap: wrap;
 
 }
 .botao-primario{
@@ -44,18 +45,59 @@ a{
     text-transform: uppercase;
 }
 .imagencapa{
-    position: relative;
+    position: inherit;
     justify-items: center;
-    margin: auto;
     width: 70rem;
     height: auto;
 }
 
-.presentaçao {
-    background-color: #fff;
+.foto-grande{
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 16rem;
+    left: 10rem;
 }
 
+.foto-links{
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 13rem;
+    right: 8rem;
+
+}
+.avatar{
+    position: relative;
+    left: -20rem;
+    flex-wrap: wrap;
+    
+}
+.presentaçao {  
+    background-color: #fff;
+    text-indent: 15%;
+}
+.parrafo{
+    display: flexbox;
+    margin-top: -20rem;
+    margin-left: 15rem;
+    text-indent: 15%;
+    text-align: left;
+
+}
+
+hr {
+    border-style: none;
 /*formaçao*/
+}
 .formaçao {
     background-color: aqua;
 
