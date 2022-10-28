@@ -91,7 +91,6 @@ a{
     margin-left: 15rem;
     text-indent: 15%;
     text-align: left;
-
 }
 
 hr {
@@ -99,8 +98,25 @@ hr {
 /*formaçao*/
 }
 .formaçao {
-    background-color: aqua;
-
+    background-color: rgb(193, 163, 251);
+    display: flexbox;
+    text-align: justify;
+    padding: .5rem;
+}
+.toti,
+.barista,
+.unerg {
+    list-style: none;
+   
+}
+.ano{
+    font-size: 1rem ;
+}
+.profesion{
+    font-size: 1.3rem;
+}
+.instituto{
+    font-size: 1,1rem;
 }
 
 /*experiencia*/
