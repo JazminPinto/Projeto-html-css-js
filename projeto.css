@@ -1,4 +1,5 @@
-body > * {
+body>* {
+    display: flexbox;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 600;
@@ -6,8 +7,14 @@ body > * {
     margin: .5rem;
     padding: .5rem;
     max-height: 100%;
-    max-width: 100%;
-    text-align: center ; 
+    max-width: auto;
+    text-align: center;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    width: 320px;
 }
 
 .fotopequena {
@@ -59,7 +66,7 @@ a {
 }
 
 .avatar {
-    display: flexbox ;
+    display: flexbox;
     position: relative;
     left: -14rem;
     flex-wrap: wrap;
@@ -102,17 +109,18 @@ a {
 
 }
 
-.parrafo{
+.parrafo {
     text-align: center;
     margin-top: -13rem;
     margin-right: -14rem;
     margin-left: 14rem;
     max-width: 100%;
     max-height: 100%;
-    
-   
+
+
 }
- /*formaçao*/
+
+/*formaçao*/
 .formaçao {
     background-color: rgb(193, 163, 251);
     display: flexbox;
@@ -206,16 +214,17 @@ a {
 }
 
 /*contato link menos importante com caixa de mensagem*/
-footer{
+footer {
     display: flexbox;
     flex-wrap: wrap;
 }
+
 .contato {
     background-color: rgb(159, 80, 234);
     text-align: justify;
     padding: 1rem;
     display: flex;
-    
+
 }
 
 .parrafo-rodape {
@@ -290,9 +299,11 @@ footer{
     background-color: rgb(193, 163, 251);
     margin-top: 1.2rem;
     text-transform: uppercase;
-    font-size: 1.3rem;;
+    font-size: 1.3rem;
+    ;
 
 }
-.boton{
+
+.boton {
     text-align: center;
 }
