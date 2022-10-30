@@ -1,0 +1,124 @@
+
+@media (max-width: 1024px) {
+    body {
+        flex-direction: column;
+        display: flexbox;
+        font-size: 1.5rem;
+
+    }
+
+    .menu-principal {
+        display: inline-flexbox;
+        justify-content: space-between;
+
+    }
+
+    .botao-primario {
+        font-size: rem;
+        margin-top: 1.2rem;
+        padding: 1rem;
+
+    }
+
+    .botoes li {
+        font-size: 2rem;
+        display: inline;
+    }
+
+    header {
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+
+    .presentaçao,
+    .formaçao,
+    .experiencia,
+    .projetos,
+    .contato {
+        text-align: center;
+        flex-direction: column;
+        line-height: 2.5rem;
+
+    }
+
+    .toti,
+    .barista,
+    .unerg,
+    .padaria,
+    .fazenda,
+    .ministerio{
+        font-size: 2.3rem;
+
+    } 
+    .ano {
+        font-size: 1.8rem;
+    }
+    
+    .profesion {
+        font-size: 2rem;
+    }
+    
+    .instituto {
+        font-size: 2, 2rem;
+    }    
+
+    h1,
+    h4 {
+        text-indent: 55%;
+        text-align: end;
+    }
+    .projetos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .card{
+        padding: 2.5rem;
+        margin: 1rem;
+        
+    }
+    .botao-secundario{
+        font-size: 2rem;
+        display: flex;
+    }
+    a {
+        font-size: 2rem;
+        
+    }
+    main {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        display: flexbox;
+    
+    }
+    .parrafo-rodape{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .foto-links-rodape {
+        height: 8rem;
+        width: 8rem;
+    }
+    
+    .mensagem{
+        font-size: 1.8rem;
+        align-items: center;
+        margin: 20%;
+        padding-top: -15rem;
+    
+    }
+    .botao-terciario {
+        font-size: 2rem;
+        display: flexbox;
+
+    }
+
+}

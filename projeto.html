@@ -7,38 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="medias1366.css">
+    <link rel="stylesheet" href="medias1024.css">
+    <link rel="stylesheet" href="medias768.css">
+    <link rel="stylesheet" href="medias480.css">
+    <link rel="stylesheet" href="medias320.css">
 </head>
 
 <body>
     <header>
         <!-- menu principal com link ancoras e foto em miniatura-->
-        <div class="menu-principal">
-            <img class="fotopequena" src="/imagens/jazmin.jpg" alt="foto-em-miniatura">
-            <ul class="botoes">
-                <li><button class="botao-primario"><a href="#presentaçao">apresentação</a> </button> </li>
-                <li><button class="botao-primario"><a href="#formaçao">formação</a></button></li>
-                <li><button class="botao-primario"><a href="#experiencia">experiência</a></button></li>
-                <li><button class="botao-primario"><a href="#projetos">projetos</a></button></li>
-                <li><button class="botao-primario"><a href="#fale-comigo">fale comigo!!!</a></button></li>
-            </ul>
-        </div>
-        <img class="imagencapa" src="/imagens/capa.jpg" alt="capa-foto-qualquer">
+        <section>
+            <div class="menu-principal">
+                <img class="fotopequena" src="/imagens/jazmin.jpg" alt="foto-em-miniatura">
+                <ul class="botoes">
+                    <li><button class="botao-primario"><a href="#titulo">apresentação</a> </button> </li>
+                    <li><button class="botao-primario"><a href="#formaçao">formação</a></button></li>
+                    <li><button class="botao-primario"><a href="#experiencia">experiência</a></button></li>
+                    <li><button class="botao-primario"><a href="#projetos">projetos</a></button></li>
+                    <li><button class="botao-primario"><a href="#fale-comigo">fale comigo!!!</a></button></li>
+                </ul>
+            </div>
+            <img class="imagencapa" src="/imagens/capa.jpg" alt="capa-foto-qualquer">
     </header>
     <main>
         <!--presentaçao-->
-        <div class="presentaçao">
-            <h1 id="presentaçao">Jazmin Pinto</h1>
-            <h3> <i> Engenheiro Agronomo Pecuario </i></h3>
-        </div>
-        <section class="avatar">
+        <section>
+            
+            <div class="avatar">
+                <img class="foto-grande" src="/imagens/jazmin.jpg" alt="foto-em-grande">
+                <a href="https://github.com/JazminPinto" target="_blank"> <img class="foto-links"
+                        src="/imagens/github roxo1.jpg" alt="github-com-link"></a>
+                <a href="https://www.linkedin.com/in/jazmin-pinto-6a7585139/" target="_blank"><img class="foto-links"
+                        src="/imagens/linkedin-roxo.png" alt="linkedin-com-link"></a>
+                <a href="https://www.instagram.com/jazminhaddely/" target="_blank"> <img class="foto-links"
+                        src="/imagens/intagram roxo2.jpg" alt="instragam-com-link"></a>
 
-            <img class="foto-grande" src="/imagens/jazmin.jpg" alt="foto-em-grande">
-            <a href="https://github.com/JazminPinto" target="_blank"> <img class="foto-links"
-                    src="/imagens/github roxo1.jpg" alt="github-com-link"></a>
-            <a href="https://www.linkedin.com/in/jazmin-pinto-6a7585139/" target="_blank"><img class="foto-links"
-                    src="/imagens/linkedin-roxo.png" alt="linkedin-com-link"></a>
-            <a href="https://www.instagram.com/jazminhaddely/" target="_blank"> <img class="foto-links"
-                    src="/imagens/intagram roxo2.jpg" alt="instragam-com-link"></a>
+            </div>
+            <div class="presentaçao">
+                <h1 id="titulo">Jazmin Pinto</h1>
+                <h4> <i> Estudante de Programação Fron-End </i></h4>
+            </div>
 
             <div class="parrafo">
                 <p> Olá. <br> Sou Jazmin Pinto, nasci na cidade San Juan de los Morros- estado Guárico na
@@ -49,8 +58,8 @@
                     as cidades enormes e lindas, agora sei que sempre estive certa nisso.
                 </p>
             </div>
-        </section>
 
+        </section>
         <!--formaçao e experiencias-->
         <div class="formaçao">
             <h2 id="formaçao">Formação</h2>
@@ -98,13 +107,14 @@
             <ul class="card-projetos">
                 <li class="card"><img src="/imagens/capa.jpg" alt="orquideas" class="card-imagen">
                     <h3> Portfólio </h3>
-                    <p> Este é o Projeto do Módulo: Fron-End (CSS3). Onde vamos praticar tudo o aprendido nas aulas</p>
+                    <p> Este é o Projeto do Módulo: Fron-End (CSS3). Onde vamos praticar tudo o aprendido nas aulas de
+                        HTML e CSS</p>
                     <button class="botao-secundario"><a href="https://github.com/JazminPinto/projeto-html.git"
                             target="_blank">Projeto no Github</a> </button>
                 </li>
                 <li class="card"> <img src="/imagens/Bufalos1.jpg" alt="bufalos" class="card-imagen">
                     <h3>Templante de Bufalos</h3>
-                    <p> São animais de grande porte. Podem chegar até 1 metro e 70 cm de altura e três
+                    <p> Animais de grande porte. Podem chegar até 1.70 m de altura e três
                         metros
                         de comprimento. Atingindo 900 kg.</p>
                     <button class="botao-secundario"><a href="https://github.com/JazminPinto/Exercicio-2-ccs.git"
@@ -113,8 +123,8 @@
                 <li class="card"> <img src="/imagens/bolo red.jpg" alt="red velvet" class="card-imagen">
                     <h3>Receita de Bolo</h3>
                     <p> Receita de Bolo Red Velvet delicioso e
-                        lindo feito com Cacau 100%, farinha de trigo,
-                        manteiga, essência de baunilha e iogurt</p>
+                        lindo, feito com Cacau 100%, farinha de trigo,
+                        manteiga, essência de baunilha e iogurt.</p>
                     <button class="botao-secundario"><a href="https://github.com/JazminPinto/receta-de-bolo.git"
                             target="_blank">Projeto no Github</a> </button>
                 </li>

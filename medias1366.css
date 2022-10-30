@@ -1,0 +1,20 @@
+@media (max-width: 1366px) {
+    body {
+        width: 1200px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    header {
+        width: 1200px;
+        text-align: center;
+    }
+
+    main,
+    footer {
+        width: 1200px;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+}

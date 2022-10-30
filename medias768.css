@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fotopequena {
+        display: none;
+    }
+
+    .menu-principal {
+        display: flexbox;
+
+    }
+
+    a {
+        font-size: 1.5rem;
+
+    }
+
+    .foto-grande {
+        width: 28rem;
+        height: 28rem;
+        left: 25%;
+        margin-top: 8rem;
+
+    }
+
+    .foto-links {
+        width: 8rem;
+        height: 8rem;
+        left: 25%;
+        bottom: 30rem;
+    }
+
+    h1,
+    h4 {
+        text-align: right;
+        padding-top: -15rem;
+
+    }
+
+    .presentaçao {
+        text-align: center;
+        display: flexbox;
+    }
+
+    .cards {
+        padding: 2rem;
+        margin: 1rem;
+        display: inline;
+    }
+    .botao-secundario{
+        font-size: 3rem;
+        display: flex;
+    }
+    .parrafo-rodape {
+        text-align: center;
+    }
+
+    .mensagem {
+        justify-content: center;
+    }
+}
