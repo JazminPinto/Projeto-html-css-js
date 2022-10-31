@@ -1,3 +1,79 @@
 @media (max-width: 480px) {
-    body {}
-}
+    body {
+        flex-direction: flex;
+        align-items: center;
+    }
+
+    .botao-primario {
+        margin-left: 1rem;
+    }
+
+    .presentaçao {
+        display: inline-flex;
+        align-self: center;
+
+    }
+
+    .parrafo {
+        text-align: center;
+    }
+
+    .projetos {
+        align-content: center;
+
+    }
+
+    .card-deck {
+        display: inline;
+        padding: 1rem;
+        margin: .5rem;
+
+    }
+
+    .card-imagen {
+        height: 33rem;
+        width: 38rem;
+        max-width: auto;
+        max-height: auto;
+    }
+
+    .card {
+        width: 40rem;
+
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .botao-secundario {
+        height: 4rem;
+        width: 38rem;
+        align-items: center;
+        margin: 2rem;
+        padding-left: 10rem;
+
+    }
+
+    a {
+        justify-self: center;
+    }
+
+    .contato {
+        padding: 5rem 10rem;
+
+    }
+
+    .mensagem {
+        font-size: 2rem;
+        width: 60%;
+        display: inline;
+        border: none;
+        align-items: center;
+    }
+   
+    }
+    .botao-terciario {
+        height: 4.5rem;
+        width: 60%;
+    }

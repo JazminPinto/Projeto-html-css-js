@@ -1,3 +1,99 @@
 @media (max-width: 320px) {
-    body {}
+    body {
+        flex-direction: flex;
+        align-items: center;
+    }
+
+    .botao-primario {
+        display: inline;
+        width: 13rem;
+        height: 5rem;
+        text-indent: -70%;
+        text-align: center;
+        justify-items: center;
+
+    }
+
+    .foto-links {
+        height: 7rem;
+        width: 7rem;
+        right: 1rem;
+        display: block;
+
+    }
+
+    .presentaçao {
+        display: inline-flex;
+        align-self: center;
+        padding-right: 15rem;
+
+
+    }
+
+    .projetos {
+        align-content: center;
+
+    }
+
+    .card-deck {
+        display: inline;
+        padding: 1rem;
+        margin: .5rem;
+
+    }
+
+    .card-imagen {
+        height: 33rem;
+        width: 50rem;
+        max-width: auto;
+        max-height: auto;
+    }
+
+    .card {
+        width: 50rem;
+
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .botao-secundario {
+        height: 4rem;
+        width: 50rem;
+        align-items: center;
+        margin: 1rem;
+        padding-left: 10rem;
+
+    }
+
+    a {
+        text-align: center;
+        margin: 7rem;
+    }
+
+    .contato {
+        padding: 5rem 10rem;
+
+    }
+
+    .foto-links-rodape {
+        height: 9rem;
+        width: 9rem;
+        display: inline-flex;
+    }
+
+    .mensagem {
+        font-size: 2rem;
+        width: 60%;
+        display: inline;
+        border: none;
+        align-items: center;
+    }
+
+}
+
+.botao-terciario {
+    height: 4.5rem;
+    width: 60%;
 }
