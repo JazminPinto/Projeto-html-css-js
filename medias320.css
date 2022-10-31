@@ -4,13 +4,12 @@
         align-items: center;
     }
 
-    .botao-primario {
-        display: inline;
-        width: 13rem;
-        height: 5rem;
-        text-indent: -70%;
-        text-align: center;
-        justify-items: center;
+    .imagencapa {
+        height: 25rem;
+    }
+
+    .foto-grande {
+        left: 55%;
 
     }
 
@@ -18,16 +17,22 @@
         height: 7rem;
         width: 7rem;
         right: 1rem;
-        display: block;
+        display: flex;
 
     }
 
     .presentaçao {
-        display: inline-flex;
+        display: flex;
         align-self: center;
-        padding-right: 15rem;
 
+    }
 
+    .parrafo,
+    .formaçao,
+    .experiencia,
+    .projetos,
+    .contato {
+        line-height: 3rem;
     }
 
     .projetos {
@@ -72,28 +77,29 @@
         margin: 7rem;
     }
 
-    .contato {
-        padding: 5rem 10rem;
-
+    footer {
+        margin: 0 0;
+    }
+    .parrafo-rodape{
+        left: 10rem;
     }
 
     .foto-links-rodape {
         height: 9rem;
         width: 9rem;
-        display: inline-flex;
+        display: flex;
+        bottom: 40rem;
     }
 
     .mensagem {
         font-size: 2rem;
-        width: 60%;
-        display: inline;
-        border: none;
+        display: flex;
         align-items: center;
     }
 
-}
 
-.botao-terciario {
-    height: 4.5rem;
-    width: 60%;
-}
+
+    .botao-terciario {
+        height: 4.5rem;
+        width: 60%;
+    }

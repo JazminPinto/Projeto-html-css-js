@@ -4,38 +4,39 @@
         flex-direction: column;
         display: flexbox;
         font-size: 1.5rem;
+        flex-wrap: wrap;
 
     }
 
     .menu-principal {
-        display: inline-flexbox;
+        display: flexbox;
         justify-content: space-between;
 
     }
 
     .botao-primario {
         font-size: 1.2rem;
-        margin-top: 1.2rem;
-        padding: 1rem;
-
+        margin-top: 1rem;
+        
     }
-    .presentaçao,
-    .parrafo {
-        padding-top: -1rem;
-    }
-
+   
     .botoes li {
-        font-size: 2rem;
-        display: inline;
+        display: inline-flex;
+        height: 4rem;
+    }
+    .principal{
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        max-width: auto;
+        margin: 0 auto;
     }
 
-    header {
-        text-align: center;
-        flex-wrap: wrap;
-
+    .presentaçao{
+        display: flexbox;
+        line-height: 2.5rem;
+        
     }
 
-    .presentaçao,
     .formaçao,
     .experiencia,
     .projetos,
@@ -67,11 +68,8 @@
         font-size: 2, 2rem;
     }    
 
-    h1,
-    h4 {
-        text-indent: 55%;
-        text-align: end;
-    }
+
+    
     .projetos {
         display: flex;
         flex-wrap: wrap;
@@ -85,10 +83,11 @@
     }
     .botao-secundario{
         font-size: 2rem;
-        display: flex;
+        display: flexbox;
     }
     a {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
         
     }
     main {
@@ -113,10 +112,8 @@
     }
     
     .mensagem{
-        font-size: 1.8rem;
-        align-items: center;
-        margin: 20%;
-        padding-top: -15rem;
+        font-size: 1.7rem;
+        margin: auto;
     
     }
     .botao-terciario {
@@ -124,5 +121,8 @@
         display: flexbox;
 
     }
+    .foto-links-rodape {
+        bottom: -2rem;
+        left: 2%;
 
 }

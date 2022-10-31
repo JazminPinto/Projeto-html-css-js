@@ -4,13 +4,15 @@
         align-items: center;
     }
 
-    .botao-primario {
-        margin-left: 1rem;
-    }
+   .menu-principal{
+    display: none;
+   }
 
     .presentaçao {
         display: inline-flex;
         align-self: center;
+        padding-top: 12rem;
+        line-height: 1rem;
 
     }
 
@@ -58,22 +60,35 @@
     a {
         justify-self: center;
     }
-
+    
     .contato {
-        padding: 5rem 10rem;
+        display: grid;
+        grid-template-columns: 1fr;
 
+    }
+    .parrafo-rodape{
+        margin:  0 6rem;
     }
 
     .mensagem {
         font-size: 2rem;
-        width: 60%;
         display: inline;
         border: none;
         align-items: center;
     }
-   
+    .nome,
+    .e-mail,
+    .assunto,
+    .comentario {
+
+        width: 50rem;
+        max-width: auto;
+    
     }
+
+    
     .botao-terciario {
         height: 4.5rem;
         width: 60%;
     }
+}

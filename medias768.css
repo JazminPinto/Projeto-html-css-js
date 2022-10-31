@@ -12,6 +12,12 @@
         display: flexbox;
 
     }
+    .botoes li {
+        display: flexbox;
+        height: 5rem;
+        padding-left: 1rem;
+        margin-left: 1.5rem;
+    }
 
     a {
         font-size: 1.5rem;
@@ -21,30 +27,27 @@
     .foto-grande {
         width: 28rem;
         height: 28rem;
-        left: 25%;
-        margin-top: 8rem;
-
+        left: 20rem;
     }
 
     .foto-links {
-        width: 8rem;
-        height: 8rem;
-        left: 25%;
-        bottom: 30rem;
-    }
-
-    h1,
-    h4 {
-        text-align: right;
-        padding-top: -15rem;
-
+        width: 7rem;
+        height: 7rem;
+        position: relative;
+        display: flex;
+        left: 20rem;
+        padding: auto;
     }
 
     .presentaçao {
         text-align: center;
         display: flexbox;
+        line-height: 2rem;
+        padding-top: 20rem;
     }
-
+    .parrafo{
+        text-align: center;
+    }
     .cards {
         padding: 2rem;
         margin: 1rem;
