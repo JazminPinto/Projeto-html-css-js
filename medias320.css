@@ -98,13 +98,10 @@
     }
 
     .foto-links-rodape {
-        height: rem;
-        width: rem;
-        display: flexbox;
         justify-content: center;
-        margin-top: 3rem;
+        margin-top: 6rem;
         right: 1rem;
-        border-radius: 35%;
+        
 
     }
 
