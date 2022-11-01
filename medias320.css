@@ -27,6 +27,11 @@
 
     }
 
+    .parrafo {
+        margin: 0 3rem 0 5rem;
+
+    }
+
     .parrafo,
     .formaçao,
     .experiencia,
@@ -79,27 +84,42 @@
 
     footer {
         margin: 0 0;
+
     }
-    .parrafo-rodape{
-        left: 10rem;
+
+    .contato {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .parrafo-rodape {
+        margin: 0 3rem 0 5rem;
+        text-align: center;
     }
 
     .foto-links-rodape {
-        height: 9rem;
-        width: 9rem;
-        display: flex;
-        bottom: 40rem;
+        height: rem;
+        width: rem;
+        display: flexbox;
+        justify-content: center;
+        margin-top: 3rem;
+        right: 1rem;
+        border-radius: 35%;
+
     }
 
     .mensagem {
         font-size: 2rem;
         display: flex;
-        align-items: center;
+        text-align: justify;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
-
-
 
     .botao-terciario {
         height: 4.5rem;
         width: 60%;
     }
+}
