@@ -160,7 +160,7 @@ a {
 /*cards foto descripçao e botoes pode ser dois o um, de 3 em 3*/
 .projetos {
     background-color: rgb(193, 163, 251);
-    text-align: justify;
+    text-align: center;
     padding: .5rem;
     flex-wrap: wrap;
 
@@ -226,6 +226,9 @@ footer {
     flex-wrap: wrap;
 
 }
+#fale-comigo{
+    text-align: center;
+}
 
 .foto-links-rodape {
     object-fit: cover;
@@ -235,7 +238,7 @@ footer {
     max-height: 100%;
     border-radius: 35%;
     position: relative;
-    bottom: -2rem;
+    bottom: 4rem;
     left: 25%;
     flex-wrap: wrap;
     padding: .5rem;

@@ -86,7 +86,10 @@
     
     }
 
-    
+    .foto-links-rodape{
+         left: 2%;
+
+    }
     .botao-terciario {
         height: 4.5rem;
         width: 60%;

@@ -122,7 +122,9 @@
 
     }
     .foto-links-rodape {
-        bottom: -2rem;
-        left: 2%;
+        bottom: 2rem;
+        left: 50%;
+    
+    }
 
 }
