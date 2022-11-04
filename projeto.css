@@ -1,8 +1,8 @@
 body>* {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin: .5rem;
     padding: 1rem 1rem;
     max-height: auto;
@@ -85,7 +85,7 @@ a {
     width: 5rem;
     max-width: 100%;
     max-height: 100%;
-    border-radius: 50%;
+    border-radius: 30%;
     position: relative;
     bottom: 8rem;
     left: -2.5rem;
@@ -134,15 +134,15 @@ a {
 }
 
 .ano {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .profesion {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .instituto {
-    font-size: 1, 1rem;
+    font-size: 1,2rem;
 }
 
 /*experiencia*/
@@ -193,7 +193,7 @@ a {
     border-style: groove;
     border-radius: .7rem;
     display: flexbox;
-    width: 16rem;
+    width: 18rem;
     background-color: #fff;
     padding: .5rem;
 

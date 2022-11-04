@@ -9,7 +9,12 @@
         width: 1200px;
         text-align: center;
     }
+    .card{
+        padding: 2.5rem;
+        margin: 1rem;
+        width: 16rem;
 
+    }
     main,
     footer {
         width: 1200px;

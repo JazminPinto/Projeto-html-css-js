@@ -34,14 +34,15 @@
 
     .card-imagen {
         height: 33rem;
-        width: 38rem;
+        width: 50rem;
         max-width: auto;
         max-height: auto;
     }
 
     .card {
-        width: 40rem;
+        width: 50rem;
 
+        
     }
 
     p {
@@ -50,15 +51,16 @@
 
     .botao-secundario {
         height: 4rem;
-        width: 38rem;
+        width: 50rem;
         align-items: center;
-        margin: 2rem;
+        margin: 1rem;
         padding-left: 10rem;
 
     }
 
     a {
-        justify-self: center;
+        text-align: center;
+        margin: 7rem;
     }
     
     .contato {

@@ -61,11 +61,11 @@
     }
     
     .profesion {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     
     .instituto {
-        font-size: 2, 2rem;
+        font-size: 2rem;
     }    
 
 
@@ -79,6 +79,8 @@
     .card{
         padding: 2.5rem;
         margin: 1rem;
+        width: 16rem;
+
         
     }
     .botao-secundario{
