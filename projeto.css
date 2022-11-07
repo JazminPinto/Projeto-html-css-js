@@ -11,9 +11,11 @@ body>* {
     width: 1366px;
     display: flexbox;
 }
-main{
+
+main {
     margin: auto;
 }
+
 .fotopequena {
     object-fit: cover;
     height: 6rem;
@@ -34,12 +36,19 @@ main{
 
 }
 
+
 .botao-primario {
     border-radius: .5rem;
     border-color: #fff;
     background-color: rgb(193, 163, 251);
     margin-top: 1.2rem;
 
+}
+
+.botao-primario:hover {
+    border-bottom: solid;
+    border-color: #fff;
+    border-radius: .5rem;
 }
 
 .botoes li {
@@ -49,7 +58,7 @@ main{
 
 a {
     text-decoration: none;
-    font-size:1.6rem;
+    font-size: 1.6rem;
     align-content: center;
     color: #000;
     text-transform: uppercase;
@@ -72,7 +81,7 @@ a {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
-    position:relative;
+    position: relative;
     bottom: 12rem;
     flex-wrap: wrap;
     left: 15rem;
@@ -92,12 +101,14 @@ a {
     flex-wrap: wrap;
 
 }
-.principal{
+
+.principal {
     display: grid;
-    grid-template-columns: 1fr 1fr;   
+    grid-template-columns: 1fr 1fr;
     max-width: auto;
     margin: 0 auto;
 }
+
 .presentaçao {
     background-color: #fff;
     text-align: left;
@@ -142,7 +153,7 @@ a {
 }
 
 .instituto {
-    font-size: 1,2rem;
+    font-size: 1, 2rem;
 }
 
 /*experiencia*/
@@ -205,6 +216,12 @@ a {
     border-style: none;
 }
 
+.botao-secundario:hover {
+    border-bottom: solid;
+    border-color: #000;
+    border-radius: .5rem;
+}
+
 /*contato link menos importante com caixa de mensagem*/
 footer {
     display: flexbox;
@@ -213,7 +230,7 @@ footer {
 
 .contato {
     display: grid;
-    grid-template-columns: 1fr 1fr;   
+    grid-template-columns: 1fr 1fr;
     background-color: rgb(159, 80, 234);
     text-align: justify;
     padding: 1rem;
@@ -226,7 +243,8 @@ footer {
     flex-wrap: wrap;
 
 }
-#fale-comigo{
+
+#fale-comigo {
     text-align: center;
 }
 
@@ -297,6 +315,12 @@ footer {
     text-transform: uppercase;
     font-size: 1.3rem;
 
+}
+
+.botao-terciario:hover {
+    border-bottom: solid;
+    border-color: #fff;
+    border-radius: .5rem;
 }
 
 .boton {
