@@ -143,25 +143,20 @@
                 <p>Você também pode me encontrar nas seguintes redes sociais:</p>
             </div>
            
-            <div class="mensagem">
-                <ul class="cajitas">
-                    <li><span> nome </span>
-                        <br> <input type="text" class="nome" placeholder="Ana Martinez">
-                    </li>
-                    <li><span> e-mail</span>
-                        <br> <input type="text" class="e-mail" placeholder="Anamartinez@exemplo.com">
-                    </li>
-                    <li><span> assunto</span>
-                        <br><input type="text" class="assunto" placeholder="assunto">
-                    </li>
-                    <li><span> mensagem</span>
-                        <br><input type="text" class="comentario" placeholder="escreva seu comentario aqui">
-                    </li>
-                    <br>
-                    <div class="boton"><button class="botao-terciario">Enviar</button></div>
-                    <br>
-                </ul>
-            </div>
+            <form class="mensagem">
+                <div id="cajitas">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" placeholder="Ana Martinez"><br>
+                    <label for="e-mail">E-mail</label><br>
+                    <input type="text" id="e-mail" placeholder="Anamartinez@exemplo.com"><br>
+                    <label for="assunto">Assunto</label><br>
+                    <input type="text" id="assunto" placeholder="assunto"><br>
+                    <label for="comentario">Mensagem</label><br>
+                    <input type="text" id="comentario" placeholder="escreva seu comentario aqui"><br>
+                    
+                    <input type="button" onclick="enviar()" value="Enviar" id="botao-terciario"><br>
+                </div>
+            </form>
             <div>
                 <a href="mailto:jazminpinto61@gmail.com"> <img class="foto-links-rodape" src="/imagens/email roxo.jpg"
                         alt="logo do email"></a>

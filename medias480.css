@@ -78,10 +78,10 @@
         border: none;
         align-items: center;
     }
-    .nome,
-    .e-mail,
-    .assunto,
-    .comentario {
+    #nome,
+    #e-mail,
+    #assunto,
+    #comentario {
 
         width: 50rem;
         max-width: auto;
@@ -92,7 +92,7 @@
          left: 2%;
 
     }
-    .botao-terciario {
+    #botao-terciario {
         height: 4.5rem;
         width: 60%;
     }
