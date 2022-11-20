@@ -124,7 +124,6 @@ a {
     text-align: justify;
 }
 
-/*formaçao*/
 .formaçao {
     background-color: rgb(193, 163, 251);
     display: flexbox;
@@ -156,7 +155,6 @@ a {
     font-size: 1, 2rem;
 }
 
-/*experiencia*/
 .experiencia {
     background-color: #fff;
     display: flexbox;
@@ -167,8 +165,6 @@ a {
 
 }
 
-/*projetos no github*/
-/*cards foto descripçao e botoes pode ser dois o um, de 3 em 3*/
 .projetos {
     background-color: rgb(193, 163, 251);
     text-align: center;
@@ -222,7 +218,6 @@ a {
     border-radius: .5rem;
 }
 
-/*contato link menos importante com caixa de mensagem*/
 footer {
     display: flexbox;
     flex-wrap: wrap;

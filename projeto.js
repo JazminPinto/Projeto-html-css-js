@@ -1,10 +1,3 @@
-/*Só permitir envio do formulário após preenchimento dos dados
-Dados precisam ser válidos (ex: email)
-Exibir erros
-
-Exibir repositórios do GitHub do usuário
-Consultar API*/
-
 function validarNome() {
     let inputNome = document.getElementById('nome')
     let spanNome = document.getElementById('span-nome')
@@ -100,4 +93,3 @@ document.querySelector('#email').addEventListener('input', validarEmail)
 document.querySelector('#assunto').addEventListener('input', validarAssunto)
 document.querySelector('#comentario').addEventListener('input', validarComentario)
 document.querySelector('#botao-terciario').addEventListener('click', enviar)
-/*document.querySelector('#nome').addEventListener.('input', limpaForm)*/
