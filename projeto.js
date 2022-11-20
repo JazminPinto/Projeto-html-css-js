@@ -77,14 +77,18 @@ function enviar() {
     validarAssunto()
     validarComentario()
 
+    let form = document.querySelector('.mensagem')
+
     if (validarNome() == true && validarEmail() == true && validarAssunto() == true && validarComentario() == true) {
         sucesso.classList.add('sucesso')
+        form.reset()
         sucesso.innerHTML = 'Formulario completo, Dados enviados com sucesso'
         return true
 
-    } else { console.log('formulario incompleto')
-    sucesso.classList.add('erro')
-    sucesso.innerHTML = 'Formulario incompleto, por favor verifique seus dados' }
+    } else {
+        sucesso.classList.add('erro')
+        sucesso.innerHTML = 'Formulario incompleto, por favor verifique seus dados'
+    }
     return false
 }
 
