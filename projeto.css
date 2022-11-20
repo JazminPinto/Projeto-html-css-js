@@ -276,6 +276,7 @@ footer {
 
 #cajitas {
     list-style: none;
+    text-align: justify;
 
 }
 
@@ -320,20 +321,36 @@ footer {
     border-bottom: solid;
     border-color: #fff;
     border-radius: .5rem;
-}
-
-.boton {
-    text-align: center;
+    
 }
 
 .erro{
-    background-color: rgba(255, 0, 0, 0.678);
+    color: red;
+    font-size: 1rem;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    border-radius: .5rem;
+    padding:.2rem ;
 }
 
 .sucesso{
-    background-color: green;
+    color: green;
+    font-size: 1rem;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    border-radius: .5rem;
+    padding:.2rem ;
 }
 
-#span-email{
-    font-size: 0.9rem;
+#span-nome,
+#span-email,
+#span-assunto,
+#span-comentario{
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: red;
+    border: red
 }
