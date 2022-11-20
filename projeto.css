@@ -325,3 +325,15 @@ footer {
 .boton {
     text-align: center;
 }
+
+.erro{
+    background-color: rgba(255, 0, 0, 0.678);
+}
+
+.sucesso{
+    background-color: green;
+}
+
+#span-email{
+    font-size: 0.9rem;
+}
