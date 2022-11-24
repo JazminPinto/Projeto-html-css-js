@@ -170,10 +170,11 @@ a {
     text-align: center;
     padding: .5rem;
     flex-wrap: wrap;
+    
 
 
 }
-
+/*
 .card-deck {
     list-style: none;
     display: flex;
@@ -194,29 +195,8 @@ a {
     max-height: 100%;
 
 }
+*/
 
-.card {
-    margin: auto;
-    border-style: groove;
-    border-radius: .7rem;
-    display: flexbox;
-    width: 18rem;
-    background-color: #fff;
-    padding: .5rem;
-
-}
-
-.botao-secundario {
-    background-color: rgb(193, 163, 251);
-    border-radius: .5rem;
-    border-style: none;
-}
-
-.botao-secundario:hover {
-    border-bottom: solid;
-    border-color: #000;
-    border-radius: .5rem;
-}
 
 footer {
     display: flexbox;
@@ -349,3 +329,42 @@ footer {
     background-color: red;
     border: red
 }
+
+/*estilizando consulta API*/
+
+.api-total{
+}
+
+.api-projetos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    padding: auto;
+    margin: none;
+
+}
+.api-card {
+    margin: auto;
+    border-style: groove;
+    border-radius: .7rem;
+    display: flexbox;
+    width: 18rem;
+    background-color: #fff;
+    padding: .5rem;
+    border-style: double;
+    text-align: center;
+
+}
+
+.botao-secundario {
+    background-color: rgb(193, 163, 251);
+    border-radius: .5rem;
+    border-style: none;
+}
+
+.botao-secundario:hover {
+    border-bottom: solid;
+    border-color: #000;
+    border-radius: .5rem;
+}
+
