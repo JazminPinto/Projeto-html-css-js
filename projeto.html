@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <!--contectando CSS com html-->
     <link rel="stylesheet" href="projeto.css">
+    <!--aplicando responsivo para aplicar em diferentes tamanhos de dispositivos -->
     <link rel="stylesheet" href="medias1366.css">
     <link rel="stylesheet" href="medias1024.css">
     <link rel="stylesheet" href="medias768.css">
@@ -83,7 +85,7 @@
 
         <div class="experiencia">
             <h2 id="experiencia">Experiência</h2>
-            <!--listagem de trabalho com imagens-->
+            <!--listagem de trabalho-->
             <section>
                 <ul class="padaria">
                     <li class="ano">2019-Atual</li>
@@ -102,7 +104,7 @@
                 </ul>
             </section>
         </div>
-        <!--projetos no github-->
+        <!--projetos no github aplicando o api-->
 
         <div class="projetos">
             <h2 id="projetos">Projetos</h2>
@@ -112,38 +114,10 @@
 
             </div>
         </div>
-<!--
-        <div class="projetos">
-            <h2 id="projetos">Projetos</h2>
-            <ul class="card-deck">
-                <li class="card"><img src="/imagens/capa.jpg" alt="orquideas" class="card-imagen">
-                    <h3> Portfólio </h3>
-                    <p> Este é o Projeto do Módulo: Front-End (CSS3). Onde vamos praticar tudo o aprendido nas aulas de
-                        HTML e CSS</p>
-                    <button class="botao-secundario"><a href="https://github.com/JazminPinto/projeto-html.git"
-                            target="_blank">Projeto no Github</a> </button>
-                </li>
-                <li class="card"> <img src="/imagens/Bufalos1.jpg" alt="bufalos" class="card-imagen">
-                    <h3>Templante de Bufalos</h3>
-                    <p> Animais de grande porte. Podem chegar até 1.70 m de altura e três
-                        metros de comprimento. Atingindo 900 kg.</p>
-                    <button class="botao-secundario"><a href="https://github.com/JazminPinto/Exercicio-2-ccs.git"
-                            target="_blank">Projeto no Github</a> </button>
-                </li>
-                <li class="card"> <img src="/imagens/bolo red.jpg" alt="red velvet" class="card-imagen">
-                    <h3>Receita de Bolo</h3>
-                    <p> Receita de Bolo Red Velvet delicioso e lindo, feito com Cacau 100%, farinha de trigo,
-                        manteiga, essência de baunilha e iogurt.</p>
-                    <button class="botao-secundario"><a href="https://github.com/JazminPinto/receta-de-bolo.git"
-                            target="_blank">Projeto no Github</a> </button>
-                </li>
-            </ul>
-        </div>
-        -->
     </main>
 
     <footer>
-        <!--informaçoes de contato-->
+        <!--informaçoes de contatoo-->
         <section class="contato">
             <div class="parrafo-rodape">
                 <h2 id="fale-comigo">Contato</h2> <br>
@@ -153,7 +127,8 @@
                 <br>
                 <p>Você também pode me encontrar nas seguintes redes sociais:</p>
             </div>
-            <!--formulario-->
+
+            <!-- validaçao do formulario-->
             <form class="mensagem">
                 <div id="cajitas">
                     <label for="nome">Nome</label>
@@ -170,6 +145,8 @@
                     <input type="text" id="comentario" placeholder="escreva seu comentario aqui"><br>
 
                     <button type="button" value="enviar" id="botao-terciario">Enviar</button><br>
+                  
+                    <!--span de sucesso, vai aparecer quando o cliente complete o formulario com sucesso-->
                     <br><span id="sucesso"></span><br>
                 </div>
             </form>
@@ -184,7 +161,9 @@
             </div>
         </section>
     </footer>
-    <script src="validacaoFormularo.js"></script>
+    
+    <!--contectando o js com html-->       
+    <script src="validacaoFormulario.js"></script>
     <script src="consultaAPI.js"></script>
 
 </body>

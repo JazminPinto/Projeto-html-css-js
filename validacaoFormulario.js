@@ -5,11 +5,13 @@ function validarNome() {
     let tamanhoDoNome = nome.length
 
     if (tamanhoDoNome <= 2) {
+        //classList.add vai adicionar a mensagem do innerHTML quando seja incorreto
         inputNome.classList.add('erro')
         spanNome.innerHTML = 'nome incorreto'
         return false
 
     } else {
+        //classList.remove vai remover a mensagem do innerHTML quando seja correto
         inputNome.classList.remove('erro')
         spanNome.innerHTML = ''
     }
@@ -70,7 +72,7 @@ function validarComentario() {
     }
     return true
 }
-
+//function vai ativar as funçoes ao clickar no butao enviar
 function enviar() {
     validarNome()
     validarEmail()
@@ -78,13 +80,14 @@ function enviar() {
     validarComentario()
 
     let form = document.querySelector('.mensagem')
-
+        //este procedimento e para saber se o cliente fez tudo corretamente vai aparecer na tela uma mensagem se sucesso
     if (validarNome() == true && validarEmail() == true && validarAssunto() == true && validarComentario() == true) {
         sucesso.classList.add('sucesso')
         form.reset()
         sucesso.innerHTML = 'Formulario completo, Dados enviados com sucesso'
         return true
 
+        //e este procedimento e para saber se o cliente fez alguma coisa errada, vai aparecer na tela uma mensagem de erro
     } else {
         sucesso.classList.add('erro')
         sucesso.innerHTML = 'Formulario incompleto, por favor verifique seus dados'
@@ -92,6 +95,7 @@ function enviar() {
     return false
 }
 
+//para ativar as funçoes
 document.querySelector('#nome').addEventListener('input', validarNome)
 document.querySelector('#email').addEventListener('input', validarEmail)
 document.querySelector('#assunto').addEventListener('input', validarAssunto)

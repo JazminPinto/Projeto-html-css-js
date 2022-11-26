@@ -24,17 +24,17 @@ async function consulta() {
             titulo.textContent = element.name
             
             let linguagem = document.createElement('p')
-            linguagem.textContent = 'Tipo de linguagem: '+ element.language
+            linguagem.textContent = 'Tipo de linguagem:' + "\n" + element.language
             
             let data = new Date(element.created_at)
             let dataFormatada = `${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`
             let dataDeCriacao = document.createElement('p')
-            dataDeCriacao.textContent = 'Data de criação:' + dataFormatada
+            dataDeCriacao.textContent = 'Data de criação:' + "\n" + dataFormatada
             
             let dataAtualizada = new Date(element.updated_at)
             let ultimaData = `${dataAtualizada.getDate()}/${dataAtualizada.getMonth()}/${dataAtualizada.getFullYear()}`
             let ultimaDataAtualiza = document.createElement('p')
-            ultimaDataAtualiza.textContent = 'Ultima de Atualização:' + ultimaData
+            ultimaDataAtualiza.textContent = 'Última de Atualização:' + "\n" + ultimaData
 
             let button = document.createElement('button')
             button.innerHTML = `<a href=${element.html_url} target='_blank' rel ='noopener'>Projeto no GitHub</a>`
