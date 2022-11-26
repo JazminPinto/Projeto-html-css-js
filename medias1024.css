@@ -68,21 +68,13 @@
         font-size: 2rem;
     }    
 
-
-    
     .projetos {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         font-size: 2rem;
     }
-    .card{
-        padding: 2.5rem;
-        margin: 1rem;
-        width: 16rem;
-
-        
-    }
+    
     .botao-secundario{
         font-size: 2rem;
         display: flexbox;

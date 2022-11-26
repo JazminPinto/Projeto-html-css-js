@@ -48,10 +48,15 @@
     .parrafo{
         text-align: center;
     }
-    .cards {
+    .api.card {
         padding: 2rem;
         margin: 1rem;
         display: inline;
+    }
+    .api-projetos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 12rem;
     }
     .botao-secundario{
         font-size: 3rem;
