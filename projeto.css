@@ -173,12 +173,13 @@ a {
 footer {
     display: flexbox;
     flex-wrap: wrap;
+    
 }
 
 .contato {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(159, 80, 234);
+    background-color: #fff;
     text-align: justify;
     padding: 1rem;
 
@@ -213,7 +214,8 @@ footer {
 .mensagem {
     display: flex;
     border-style: groove;
-    border-color: #fff;
+    background-color: rgb(159, 80, 234);
+    border-color: #000;
     border-radius: .5rem;
     padding: 1rem;
     margin: .5rem;
@@ -224,7 +226,6 @@ footer {
 #cajitas {
     list-style: none;
     text-align: justify;
-
 }
 
 #nome,
@@ -268,6 +269,10 @@ footer {
     border-bottom: solid;
     border-color: #fff;
     border-radius: .5rem;
+
+}
+#copy{
+    background-color: rgb(159, 80, 234);
 
 }
 
