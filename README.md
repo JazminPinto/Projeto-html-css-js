@@ -5,4 +5,4 @@ Estilizando o meu primeiro projeto em CSS 31/10/2022
 Finalizado o dia 04/11/2022
 
 Aplicando no meu primeiro projeto JS, json e api 23/11/2022
-Finalizado o dia 'ainda nao sei'
+Finalizado o dia 26/11/2022
