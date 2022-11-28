@@ -177,6 +177,10 @@ footer {
     margin: auto;
     
 }
+a.copy{
+    text-transform: none;
+
+}
 
 .contato {
     display: grid;
@@ -260,6 +264,8 @@ footer {
 #botao-terciario {
     border-radius: .5rem;
     border-color: #fff;
+    border-bottom-color: #000;
+    border-right-color:#000;
     background-color: rgb(193, 163, 251);
     margin-top: 1.2rem;
     text-transform: uppercase;
@@ -270,6 +276,7 @@ footer {
 #botao-terciario:hover {
     border-bottom: solid;
     border-color: #fff;
+    border-right-color:#fff;
     border-radius: .5rem;
 
 }
@@ -323,7 +330,7 @@ footer {
     border-style: groove;
     border-radius: 1rem;
     display: flexbox;
-    width: 21rem;
+    width: auto;
     background-color: #fff;
     padding: auto;
     border-style: double;
@@ -331,10 +338,15 @@ footer {
 }
 
 .botao-secundario {
-    background-color: rgb(193, 163, 251);
     border-radius: .5rem;
-    border-style: none;
-    margin: 12%;
+    border-top-color: #000; 
+    border-bottom-color: rgb(159, 80, 234);
+    border-right-color:rgb(159, 80, 234) ;
+    background-color: rgb(193, 163, 251);
+    margin-top: 1.2rem;
+    text-transform: uppercase;
+    margin: 25%;
+    padding: .5rem;
 }
 
 .botao-secundario:hover {
